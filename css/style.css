@@ -1,0 +1,62 @@
+.info
+{
+	padding: 20px !important;
+		
+}
+
+._wrapper{
+	background-color: white;
+}
+
+.subhead
+{
+	text-align: center;
+}
+
+.parallax-container {
+    height: "500px";
+    z-index: 2;
+}
+
+._about{
+	height: 750px;
+}
+
+.card-content{
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+}
+
+.subheading
+{
+	border: 4px solid;
+	padding: 12px;
+	font-size:34px;
+}
+
+.heading{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+._footer{
+	z-index: -2;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+._textcolor li a{
+	color: black !important;
+}
+
+.nav-wrapper a{
+	color: black !important;
+}
+
+/*._card{
+	width: 100%;
+	height: 50%;
+}*/
+
+
