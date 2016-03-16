@@ -10,12 +10,12 @@
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <script>
 	  $(document).ready(function(){
-      $('.slider').slider({full_width: true});
-      $('.parallax').parallax();
-      $('.slider').css('height','580px');
-      $('.slides').css('height','580px');
-      var height=$('._footer').height();
-      $('._wrapper').css('margin-bottom',height);
+      // $('.slider').slider({full_width: true});
+      // $('.parallax').parallax();
+      // $('.slider').css('height','580px');
+      // $('.slides').css('height','580px');
+      // var height=$('._footer').height();
+      // $('._wrapper').css('margin-bottom',height);
       function initialize() {
        var mapProp = {
         center:new google.maps.LatLng(51.508742, -0.120850),
@@ -208,6 +208,6 @@
 <div id="googleMap" style="width:100%;height:90%;background:white;"></div>
 </div>
 <?php include 'footer.php';?>
-
 </body>
+<script type="text/javascript" src="js/style.js"></script>
 </html>
